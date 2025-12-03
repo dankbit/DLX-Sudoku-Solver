@@ -10,7 +10,7 @@ const renderApp = () => {
   app.innerHTML = `
     <div class="min-h-screen bg-neutral-900 text-neutral-200 flex flex-col items-center justify-center p-4 font-mono">
       <h1 class="text-3xl font-bold mb-2 text-emerald-400">DLX Sudoku Solver</h1>
-      <p class="text-xs mb-6 text-neutral-400">Enter your own numbers & click Solve</p>
+      <p class="text-xs mb-6 text-neutral-400">Sudoku solver using Knuth's Algorithm X and Dancing Links Technique   </p>
       
       <div id="grid-container" class="grid grid-cols-9 gap-[1px] bg-neutral-700 border-2 border-neutral-600 mb-6 shadow-2xl">
         </div>
